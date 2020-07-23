@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.File;
 import java.io.FileFilter;
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.HashSet;
@@ -140,6 +141,23 @@ public class ClassUtil {
     public static Class<?> loadClass(String className) throws ClassNotFoundException {
         Class clazz = Class.forName(className);
         return clazz;
+    }
+
+    /**
+     * 设置target类里边指定属性的属性值
+     * @param field 成员变量
+     * @param target 类实例
+     * @param value 成员变量的值
+     * @param accessible 是否允许设置私有属性
+     */
+    public static void setField(Field field,Object target,Object value,boolean accessible){
+        field.setAccessible(accessible);
+        try {
+            field.set(target,value);
+        } catch (IllegalAccessException e) {
+            log.error(target.getClass() + "set field error" + field.getName());
+            throw new RuntimeException(e);
+        }
     }
 
     public static void main(String[] args) {

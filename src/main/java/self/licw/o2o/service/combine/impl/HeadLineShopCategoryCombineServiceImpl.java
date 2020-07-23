@@ -8,12 +8,15 @@ import self.licw.o2o.service.combine.HeadLineShopCategoryCombineService;
 import self.licw.o2o.service.solo.HeadLineService;
 import self.licw.o2o.service.solo.ShopCategoryService;
 import self.licw.simpleframework.core.annotation.Service;
+import self.licw.simpleframework.inject.annotation.Autowired;
 
 import java.util.List;
 
 @Service
 public class HeadLineShopCategoryCombineServiceImpl implements HeadLineShopCategoryCombineService {
+    @Autowired
     private HeadLineService headLineService;
+    @Autowired
     private ShopCategoryService shopCategoryService;
     @Override
     public Result<MainPageInfoDto> getMainPageInfo() {

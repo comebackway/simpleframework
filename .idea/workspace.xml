@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="213f3da8-e626-4f68-bfbb-bafe9d45ba08" name="Default Changelist" comment="" />
+    <list default="true" id="213f3da8-e626-4f68-bfbb-bafe9d45ba08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerRecordAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerTimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectListExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectWeaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/ProxyCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/AspectInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/DefaultAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/inject/DependencyInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/inject/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/CommonPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/Impl/AliTocPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/Impl/ToCPaymentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/ProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/ToCPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/cglibproxy/AlipayMethodIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/cglibproxy/cglibProxyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/jdkproxy/AliPayInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/jdkproxy/jdkProxyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectListExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectWeaverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/inject/DependencyInjectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/frontend/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/core/BeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/util/ClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/frontend/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/frontend/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/HeadLineOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$ContainerHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$ContainerHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/core/BeanContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/core/BeanContainerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +59,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +82,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
@@ -37,12 +91,62 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="self.licw.simpleframework.util" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="self.licw.simpleframework.aop.T" />
+      <recent name="self.licw.test.proxy.jdkproxy" />
+      <recent name="self.licw.o2o.service.combine.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProject\simpleframework\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanContainerTest.loanBeansTest">
-    <configuration name="BeanContainerTest.loanBeansTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AspectWeaverTest.doAopTest">
+    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="self.licw.test.proxy.ProxyDemo" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.licw.test.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AspectListExecutorTest.sortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.licw.simpleframework.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="self.licw.simpleframework.aop" />
+      <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.aop.AspectListExecutorTest" />
+      <option name="METHOD_NAME" value="sortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AspectWeaverTest.doAopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="self.licw.simpleframework.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="self.licw.simpleframework.aop" />
+      <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.aop.AspectWeaverTest" />
+      <option name="METHOD_NAME" value="doAopTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simpleframework" />
       <extension name="coverage">
         <pattern>
@@ -52,38 +156,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="self.licw.simpleframework.core" />
       <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.core.BeanContainerTest" />
-      <option name="METHOD_NAME" value="loanBeansTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simpleframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="self.licw.simpleframework.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="self.licw.simpleframework.util" />
-      <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.util.ClassUtilTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassUtilTest.extractPackageClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DependencyInjectorTest.doIocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simpleframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="self.licw.simpleframework.util.*" />
+          <option name="PATTERN" value="self.licw.simpleframework.inject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="self.licw.simpleframework.util" />
-      <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.util.ClassUtilTest" />
-      <option name="METHOD_NAME" value="extractPackageClassTest" />
+      <option name="PACKAGE_NAME" value="self.licw.simpleframework.inject" />
+      <option name="MAIN_CLASS_NAME" value="self.licw.simpleframework.inject.DependencyInjectorTest" />
+      <option name="METHOD_NAME" value="doIocTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,9 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeanContainerTest.loanBeansTest" />
-        <item itemvalue="JUnit.ClassUtilTest" />
-        <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
+        <item itemvalue="JUnit.AspectWeaverTest.doAopTest" />
+        <item itemvalue="JUnit.AspectListExecutorTest.sortTest" />
+        <item itemvalue="Application.ProxyDemo" />
+        <item itemvalue="JUnit.DependencyInjectorTest.doIocTest" />
+        <item itemvalue="JUnit.BeanContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -121,6 +211,15 @@
       <updated>1594703302998</updated>
       <workItem from="1594703306071" duration="8413000" />
       <workItem from="1594809239194" duration="7671000" />
+      <workItem from="1594873943006" duration="3545000" />
+      <workItem from="1594895962860" duration="6219000" />
+      <workItem from="1594960654223" duration="2024000" />
+      <workItem from="1594963062454" duration="386000" />
+      <workItem from="1595041259270" duration="618000" />
+      <workItem from="1595246480619" duration="4058000" />
+      <workItem from="1595308778283" duration="3089000" />
+      <workItem from="1595412875910" duration="11284000" />
+      <workItem from="1595479048572" duration="8363000" />
     </task>
     <servers />
   </component>
@@ -128,10 +227,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1594814989713">
+    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1595501470248">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1594814989713" />
+    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1595501470248" />
     <state x="406" y="406" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594814834994">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -140,41 +239,56 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="534" y="339" width="431" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.960@0.0.1500.960" timestamp="1594812861520" />
-    <state width="1458" height="256" key="GridCell.Tab.0.bottom" timestamp="1594816935552">
+    <state width="1458" height="275" key="GridCell.Tab.0.bottom" timestamp="1595502115317">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1594816935552" />
-    <state width="1458" height="256" key="GridCell.Tab.0.center" timestamp="1594816935552">
+    <state width="1458" height="275" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
+    <state width="1458" height="275" key="GridCell.Tab.0.center" timestamp="1595502115317">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1594816935552" />
-    <state width="1458" height="256" key="GridCell.Tab.0.left" timestamp="1594816935552">
+    <state width="1458" height="275" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
+    <state width="1458" height="275" key="GridCell.Tab.0.left" timestamp="1595502115317">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1594816935552" />
-    <state width="1458" height="256" key="GridCell.Tab.0.right" timestamp="1594816935552">
+    <state width="1458" height="275" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
+    <state width="1458" height="275" key="GridCell.Tab.0.right" timestamp="1595502115317">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1594816935552" />
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1594730383941">
+    <state width="1458" height="275" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
+    <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1595501031949">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1594730383941" />
-    <state width="1458" height="316" key="GridCell.Tab.1.center" timestamp="1594730383941">
+    <state width="1458" height="316" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
+    <state width="1458" height="316" key="GridCell.Tab.1.center" timestamp="1595501031949">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1594730383941" />
-    <state width="1458" height="316" key="GridCell.Tab.1.left" timestamp="1594730383941">
+    <state width="1458" height="316" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
+    <state width="1458" height="316" key="GridCell.Tab.1.left" timestamp="1595501031949">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1594730383941" />
-    <state width="1458" height="316" key="GridCell.Tab.1.right" timestamp="1594730383941">
+    <state width="1458" height="316" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
+    <state width="1458" height="316" key="GridCell.Tab.1.right" timestamp="1595501031949">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1594730383941" />
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1594812997600">
+    <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
+    <state x="409" y="222" key="run.anything.popup" timestamp="1594896480571">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1594812997600" />
+    <state x="409" y="222" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1594896480571" />
+    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1595505704118">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1595505704118" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

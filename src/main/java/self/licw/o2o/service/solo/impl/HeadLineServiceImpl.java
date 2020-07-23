@@ -16,6 +16,7 @@ public class HeadLineServiceImpl implements HeadLineService {
 
     @Override
     public Result<Boolean> addHeadLine(HeadLine headLine) {
+        System.out.println("执行啦");
         return null;
     }
 

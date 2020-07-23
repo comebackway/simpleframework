@@ -4,6 +4,7 @@ import self.licw.o2o.entity.ShopCategory;
 import self.licw.o2o.entity.dto.Result;
 import self.licw.o2o.service.solo.ShopCategoryService;
 import self.licw.simpleframework.core.annotation.Controller;
+import self.licw.simpleframework.inject.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @Controller
 public class ShopCategroyOperationController {
+    @Autowired
     private ShopCategoryService shopCategoryService;
 
     Result<List<ShopCategory>> getHeadLineList(HttpServletRequest request, HttpServletResponse response){
