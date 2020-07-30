@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:16:39 +0800] "GET /simpleframework/static/promotion.png HTTP/1.1" 200 881244 http-bio-8080-exec-1 736
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:16:39 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:17:18 +0800] "GET /simpleframework/templates/addheadline.jsp HTTP/1.1" 200 719 http-bio-8080-exec-4 974
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:20:15 +0800] "GET /simpleframework/static/promotion.png HTTP/1.1" 304 - http-bio-8080-exec-6 9
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:20:18 +0800] "GET /simpleframework/static/promotion.png HTTP/1.1" 304 - http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:22:04 +0800] "GET /simpleframework/static/promotion.png HTTP/1.1" 304 - http-bio-8080-exec-1 500
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:22:19 +0800] "GET /simpleframework/templates/addheadline.jsp HTTP/1.1" 200 719 http-bio-8080-exec-3 68
+0:0:0:0:0:0:0:1 - - [27/Jul/2020:13:22:45 +0800] "GET /simpleframework/templates/addheadline.jsp HTTP/1.1" 200 719 http-bio-8080-exec-1 413

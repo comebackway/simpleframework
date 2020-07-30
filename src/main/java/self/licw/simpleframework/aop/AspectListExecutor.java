@@ -9,6 +9,7 @@ import self.licw.simpleframework.util.ValidationUtil;
 import java.lang.reflect.Method;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -48,10 +49,14 @@ public class AspectListExecutor implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        if (ValidationUtil.isEmpty(AspectList)){
-            return null;
-        }
+        //对Aspect列表进行精筛
+        collectAccurateMatchedAspectList(method);
         Object returnValue = null;
+        if (ValidationUtil.isEmpty(AspectList)){
+            //精筛后如果为空，则直接执行原来的方法
+            returnValue = methodProxy.invokeSuper(o, objects);
+            return returnValue;
+        }
         //1.按照order升序执行所有aspect的before方法
         invokeBeforeAdvices(method,objects);
         //2.执行被代理类的方法
@@ -65,6 +70,24 @@ public class AspectListExecutor implements MethodInterceptor {
             invokeAfterThrowingAdvices(method,objects,e);
         }
         return returnValue;
+    }
+
+    /**
+     * 把该class下对应的method跟Aspect列表进行精筛
+     * @param method
+     */
+    private void collectAccurateMatchedAspectList(Method method) {
+        if (ValidationUtil.isEmpty(AspectList)){return;}
+        //使用Iterator 因为在后边remove时，可以同时删除原列表和遍历列表副本
+        //如果使用foreach 在删除的时候会抛错
+        Iterator<AspectInfo> it = AspectList.iterator();
+        while(it.hasNext()){
+            AspectInfo aspectInfo = it.next();
+            if (!aspectInfo.getPointcutLocator().accurateMatches(method)){
+                it.remove();
+            }
+        }
+
     }
 
 

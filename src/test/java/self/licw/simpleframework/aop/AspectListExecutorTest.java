@@ -15,9 +15,9 @@ public class AspectListExecutorTest {
     @Test
     public void sortTest(){
         List<AspectInfo> aspectInfos = new ArrayList<>();
-        aspectInfos.add(new AspectInfo(2,new t1()));
-        aspectInfos.add(new AspectInfo(5,new t2()));
-        aspectInfos.add(new AspectInfo(1,new t3()));
+        aspectInfos.add(new AspectInfo(2,new t1(),null));
+        aspectInfos.add(new AspectInfo(5,new t2(),null));
+        aspectInfos.add(new AspectInfo(1,new t3(),null));
         AspectListExecutor aspectListExecutor = new AspectListExecutor(AspectListExecutorTest.class,aspectInfos);
         List<AspectInfo> sort = aspectListExecutor.getAspectList();
         for (AspectInfo aspectInfo:sort){

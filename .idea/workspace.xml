@@ -2,53 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="213f3da8-e626-4f68-bfbb-bafe9d45ba08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerRecordAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerTimeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectListExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectWeaver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/ProxyCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Aspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/AspectInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/DefaultAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/inject/DependencyInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/inject/annotation/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/CommonPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/Impl/AliTocPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/Impl/ToCPaymentImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/ProxyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/ToCPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/cglibproxy/AlipayMethodIntercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/cglibproxy/cglibProxyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/jdkproxy/AliPayInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/test/proxy/jdkproxy/jdkProxyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectListExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectWeaverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/T/t3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/inject/DependencyInjectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/PointcutLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/RequestProcessorChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/annotation/RequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/annotation/ResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/RequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/impl/ControllerRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/impl/JspRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/impl/PreRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/impl/StaticResourceRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/ResultRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/impl/DefaultRequestRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/impl/InternalErrorResultRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/impl/JsonRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/impl/ResourceNotFoundResultRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/render/impl/ViewResultRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/type/ControllerMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/type/ModelAndView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/type/RequestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/type/RequestPathInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/util/ConverterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/promotion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/addheadline.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerRecordAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerRecordAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerTimeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/aspect/ControllerTimeAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/frontend/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/core/BeanContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/util/ClassUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectListExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectListExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectWeaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/AspectWeaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Aspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/annotation/Aspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/AspectInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/self/licw/simpleframework/aop/aspect/AspectInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectListExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/self/licw/simpleframework/aop/AspectListExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/aspect/ControllerRecordAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/aspect/ControllerRecordAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/aspect/ControllerTimeAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/aspect/ControllerTimeAspect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/frontend/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/frontend/MainPageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/HeadLineOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/controller/superadmin/ShopCategroyOperationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/HeadLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/HeadLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/ShopCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/ShopCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/dto/MainPageInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/dto/MainPageInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/dto/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/entity/dto/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/HeadLineShopCategoryCombineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/HeadLineShopCategoryCombineService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/HeadLineService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/HeadLineService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/ShopCategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/ShopCategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/HeadLineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/ShopCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/o2o/service/solo/impl/ShopCategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectListExecutor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectListExecutor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectListExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectListExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectWeaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/AspectWeaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/ProxyCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/ProxyCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/annotation/Aspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/annotation/Aspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/annotation/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/annotation/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/aspect/AspectInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/aspect/AspectInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/aspect/DefaultAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/aop/aspect/DefaultAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$ContainerHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer$ContainerHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/BeanContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Component.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Component.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/core/annotation/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/inject/DependencyInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/inject/DependencyInjector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/inject/annotation/Autowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/inject/annotation/Autowired.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ClassUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/core/BeanContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/core/BeanContainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ValidationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/simpleframework/util/ValidationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/annotation/PersonInfoAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/annotation/PersonInfoAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/annotation/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/annotation/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/HPMouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/HPMouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/HUAWEIMouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/HUAWEIMouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/entity/Mouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/HPMouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/HPMouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/HUAWEIMouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/HUAWEIMouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/MouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/method/MouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/simple/MouseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/simple/MouseFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton$ContainerHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton$ContainerHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/factory/singleton/EnumStarvingSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/CommonPay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/CommonPay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/Impl/AliTocPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/Impl/AliTocPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/Impl/ToCPaymentImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/Impl/ToCPaymentImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/ProxyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/ProxyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/ToCPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/ToCPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/cglibproxy/AlipayMethodIntercepter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/cglibproxy/AlipayMethodIntercepter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/cglibproxy/cglibProxyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/cglibproxy/cglibProxyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/jdkproxy/AliPayInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/jdkproxy/AliPayInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/jdkproxy/jdkProxyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/proxy/jdkproxy/jdkProxyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/self/licw/test/reflect/ReflectTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/self/licw/test/reflect/ReflectTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/aop/AspectListExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/self/licw/simpleframework/aop/AspectListExecutorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +109,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Class" />
       </list>
@@ -85,7 +135,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -97,10 +147,11 @@
       <recent name="self.licw.o2o.service.combine.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\simpleframework\src\main\webapp" />
       <recent name="D:\JavaProject\simpleframework\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AspectWeaverTest.doAopTest">
+  <component name="RunManager" selected="Maven.simpleframework [tomcat7:run]">
     <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="self.licw.test.proxy.ProxyDemo" />
       <module name="simpleframework" />
@@ -177,6 +228,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="simpleframework [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProxyDemo" />
+      <item itemvalue="JUnit.AspectListExecutorTest.sortTest" />
+      <item itemvalue="JUnit.AspectWeaverTest.doAopTest" />
+      <item itemvalue="JUnit.BeanContainerTest" />
+      <item itemvalue="JUnit.DependencyInjectorTest.doIocTest" />
+      <item itemvalue="Maven.simpleframework [tomcat7:run]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AspectWeaverTest.doAopTest" />
@@ -219,7 +303,19 @@
       <workItem from="1595246480619" duration="4058000" />
       <workItem from="1595308778283" duration="3089000" />
       <workItem from="1595412875910" duration="11284000" />
-      <workItem from="1595479048572" duration="8363000" />
+      <workItem from="1595479048572" duration="11760000" />
+      <workItem from="1595565866447" duration="2373000" />
+      <workItem from="1595587464606" duration="4393000" />
+      <workItem from="1595642212662" duration="29000" />
+      <workItem from="1595728587933" duration="8992000" />
+      <workItem from="1595738111320" duration="24000" />
+      <workItem from="1595825349683" duration="2866000" />
+      <workItem from="1595910805595" duration="4521000" />
+      <workItem from="1595935527168" duration="4667000" />
+      <workItem from="1595997568821" duration="2845000" />
+      <workItem from="1596019709628" duration="6078000" />
+      <workItem from="1596083765692" duration="4335000" />
+      <workItem from="1596104557999" duration="7106000" />
     </task>
     <servers />
   </component>
@@ -227,10 +323,16 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1595501470248">
+    <state x="206" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595826631257">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1595501470248" />
+    <state x="206" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960/3000.0.2560.1400@0.0.1500.960" timestamp="1595737385990" />
+    <state x="206" y="136" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1595826631257" />
+    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser" timestamp="1596024791522">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960/3000.0.2560.1400@0.0.1500.960" timestamp="1595736884414" />
+    <state x="556" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1596024791522" />
     <state x="406" y="406" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594814834994">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -239,46 +341,58 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="534" y="339" width="431" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.960@0.0.1500.960" timestamp="1594812861520" />
-    <state width="1458" height="275" key="GridCell.Tab.0.bottom" timestamp="1595502115317">
+    <state x="137" y="183" key="#xdebugger.evaluate" timestamp="1595589118930">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="275" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
-    <state width="1458" height="275" key="GridCell.Tab.0.center" timestamp="1595502115317">
+    <state x="137" y="183" key="#xdebugger.evaluate/0.0.1500.960@0.0.1500.960" timestamp="1595589118930" />
+    <state width="707" height="274" key="GridCell.Tab.0.bottom" timestamp="1596111704558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="275" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
-    <state width="1458" height="275" key="GridCell.Tab.0.left" timestamp="1595502115317">
+    <state width="707" height="274" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596111704558" />
+    <state width="707" height="274" key="GridCell.Tab.0.center" timestamp="1596111704558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="275" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
-    <state width="1458" height="275" key="GridCell.Tab.0.right" timestamp="1595502115317">
+    <state width="707" height="274" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1596111704558" />
+    <state width="707" height="274" key="GridCell.Tab.0.left" timestamp="1596111704558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="275" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1595502115317" />
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1595501031949">
+    <state width="707" height="274" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1596111704558" />
+    <state width="707" height="274" key="GridCell.Tab.0.right" timestamp="1596111704558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
-    <state width="1458" height="316" key="GridCell.Tab.1.center" timestamp="1595501031949">
+    <state width="707" height="274" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1596111704558" />
+    <state width="707" height="307" key="GridCell.Tab.1.bottom" timestamp="1596111704553">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
-    <state width="1458" height="316" key="GridCell.Tab.1.left" timestamp="1595501031949">
+    <state width="707" height="307" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1596111704553" />
+    <state width="707" height="307" key="GridCell.Tab.1.center" timestamp="1596111704553">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
-    <state width="1458" height="316" key="GridCell.Tab.1.right" timestamp="1595501031949">
+    <state width="707" height="307" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1596111704553" />
+    <state width="707" height="307" key="GridCell.Tab.1.left" timestamp="1596111704553">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1595501031949" />
+    <state width="707" height="307" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1596111704553" />
+    <state width="707" height="307" key="GridCell.Tab.1.right" timestamp="1596111704553">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="707" height="307" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1596111704553" />
+    <state x="516" y="191" key="RollbackChangesDialog" timestamp="1596026938613">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="516" y="191" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1596026938613" />
+    <state x="429" y="213" width="641" height="534" key="find.popup" timestamp="1596027174707">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="429" y="213" width="641" height="534" key="find.popup/0.0.1500.960@0.0.1500.960" timestamp="1596027174707" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1594896480571">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="409" y="222" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1594896480571" />
-    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1595505704118">
+    <state x="422" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1596084739376">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1595505704118" />
+    <state x="422" y="215" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1596084739376" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,6 +401,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/self/licw/simpleframework/core/BeanContainerTest.java</url>
           <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/self/licw/simpleframework/mvc/processor/impl/JspRequestProcessor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

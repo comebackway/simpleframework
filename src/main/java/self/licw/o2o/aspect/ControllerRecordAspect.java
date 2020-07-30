@@ -9,7 +9,7 @@ import self.licw.simpleframework.core.annotation.Controller;
 import java.lang.reflect.Method;
 
 @Slf4j
-@Aspect(value = Controller.class)
+@Aspect(pointcut = "within(self.licw.o2o.controller.superadmin.*)")
 @Order(1)
 public class ControllerRecordAspect extends DefaultAspect {
     @Override

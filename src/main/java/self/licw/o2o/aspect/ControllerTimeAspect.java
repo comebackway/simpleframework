@@ -8,7 +8,7 @@ import self.licw.simpleframework.core.annotation.Controller;
 
 import java.lang.reflect.Method;
 
-@Aspect(Controller.class)
+@Aspect(pointcut = "execution(* self.licw.o2o.controller.frontend..*.*(..))")
 @Order(2)
 @Slf4j
 public class ControllerTimeAspect extends DefaultAspect {
